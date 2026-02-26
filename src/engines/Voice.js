@@ -1,0 +1,1 @@
+export default class VoiceEngine { process(state) { return { voice: { lang: state.lang || 'id-ID', volume: 0.8 } }; } }

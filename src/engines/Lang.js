@@ -1,0 +1,1 @@
+export default class LanguageEngine { process(state) { return { locale: { code: state.lang || 'id' } }; } }

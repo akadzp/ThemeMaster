@@ -1,0 +1,1 @@
+export default class SoundEngine { process() { return { sound: { active: true, play: (type) => console.log(`Play sound: ${type}`) } }; } }
